@@ -1,0 +1,228 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.3
+2 info using node@v21.7.3
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-09-26T16_33_53_029Z-
+9 verbose logfile /home/container/.npm/_logs/2024-09-26T16_33_53_029Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 silly reify mark retired [
+14 silly reify   '/home/container/node_modules/mime',
+14 silly reify   '/home/container/node_modules/.bin/mime'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   '/home/container/node_modules/mini-svg-data-uri',
+15 silly reify   '/home/container/node_modules/.bin/mini-svg-data-uri'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/home/container/node_modules/mkdirp',
+16 silly reify   '/home/container/node_modules/.bin/mkdirp'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/home/container/node_modules/resolve',
+17 silly reify   '/home/container/node_modules/.bin/resolve'
+17 silly reify ]
+18 silly reify moves {
+18 silly reify   '/home/container/node_modules/mime': '/home/container/node_modules/.mime-OqpHjQqc',
+18 silly reify   '/home/container/node_modules/.bin/mime': '/home/container/node_modules/.bin/.mime-eoW5cL08',
+18 silly reify   '/home/container/node_modules/mini-svg-data-uri': '/home/container/node_modules/.mini-svg-data-uri-4vtL1Zky',
+18 silly reify   '/home/container/node_modules/.bin/mini-svg-data-uri': '/home/container/node_modules/.bin/.mini-svg-data-uri-6AaBHc4Q',
+18 silly reify   '/home/container/node_modules/mkdirp': '/home/container/node_modules/.mkdirp-xuUfkeqX',
+18 silly reify   '/home/container/node_modules/.bin/mkdirp': '/home/container/node_modules/.bin/.mkdirp-b95gaefK',
+18 silly reify   '/home/container/node_modules/resolve': '/home/container/node_modules/.resolve-JQ815DJy',
+18 silly reify   '/home/container/node_modules/.bin/resolve': '/home/container/node_modules/.bin/.resolve-CN4V8UI9'
+18 silly reify }
+19 silly audit bulk request {
+19 silly audit   '@popperjs/core': [ '2.11.8' ],
+19 silly audit   '@rollup/plugin-node-resolve': [ '15.2.3' ],
+19 silly audit   '@rollup/pluginutils': [ '5.1.0' ],
+19 silly audit   '@types/estree': [ '1.0.5' ],
+19 silly audit   '@types/resolve': [ '1.20.2' ],
+19 silly audit   accepts: [ '1.3.8' ],
+19 silly audit   'append-field': [ '1.0.0' ],
+19 silly audit   'array-flatten': [ '1.1.1' ],
+19 silly audit   'body-parser': [ '1.20.2' ],
+19 silly audit   'buffer-from': [ '1.1.2' ],
+19 silly audit   'builtin-modules': [ '3.3.0' ],
+19 silly audit   busboy: [ '1.6.0' ],
+19 silly audit   bytes: [ '3.1.2' ],
+19 silly audit   'call-bind': [ '1.0.7' ],
+19 silly audit   'concat-stream': [ '1.6.2' ],
+19 silly audit   'content-disposition': [ '0.5.4' ],
+19 silly audit   'content-type': [ '1.0.5' ],
+19 silly audit   cookie: [ '0.6.0' ],
+19 silly audit   'cookie-signature': [ '1.0.6', '1.0.7' ],
+19 silly audit   'core-util-is': [ '1.0.3' ],
+19 silly audit   debug: [ '2.6.9' ],
+19 silly audit   deepmerge: [ '4.3.1' ],
+19 silly audit   'define-data-property': [ '1.1.4' ],
+19 silly audit   depd: [ '2.0.0' ],
+19 silly audit   destroy: [ '1.2.0' ],
+19 silly audit   'ee-first': [ '1.1.1' ],
+19 silly audit   encodeurl: [ '1.0.2' ],
+19 silly audit   'es-define-property': [ '1.0.0' ],
+19 silly audit   'es-errors': [ '1.3.0' ],
+19 silly audit   'escape-html': [ '1.0.3' ],
+19 silly audit   'estree-walker': [ '2.0.2' ],
+19 silly audit   etag: [ '1.8.1' ],
+19 silly audit   express: [ '4.19.2' ],
+19 silly audit   'express-session': [ '1.18.0' ],
+19 silly audit   finalhandler: [ '1.2.0' ],
+19 silly audit   flowbite: [ '2.4.1' ],
+19 silly audit   'flowbite-datepicker': [ '1.3.0' ],
+19 silly audit   forwarded: [ '0.2.0' ],
+19 silly audit   fresh: [ '0.5.2' ],
+19 silly audit   'function-bind': [ '1.1.2' ],
+19 silly audit   'get-intrinsic': [ '1.2.4' ],
+19 silly audit   gopd: [ '1.0.1' ],
+19 silly audit   'has-property-descriptors': [ '1.0.2' ],
+19 silly audit   'has-proto': [ '1.0.3' ],
+19 silly audit   'has-symbols': [ '1.0.3' ],
+19 silly audit   hasown: [ '2.0.2' ],
+19 silly audit   'http-errors': [ '2.0.0' ],
+19 silly audit   'iconv-lite': [ '0.4.24' ],
+19 silly audit   inherits: [ '2.0.4' ],
+19 silly audit   'ipaddr.js': [ '1.9.1' ],
+19 silly audit   'is-builtin-module': [ '3.2.1' ],
+19 silly audit   'is-core-module': [ '2.15.0' ],
+19 silly audit   'is-module': [ '1.0.0' ],
+19 silly audit   isarray: [ '1.0.0' ],
+19 silly audit   'media-typer': [ '0.3.0' ],
+19 silly audit   'merge-descriptors': [ '1.0.1' ],
+19 silly audit   methods: [ '1.1.2' ],
+19 silly audit   mime: [ '1.6.0' ],
+19 silly audit   'mime-db': [ '1.52.0' ],
+19 silly audit   'mime-types': [ '2.1.35' ],
+19 silly audit   'mini-svg-data-uri': [ '1.4.4' ],
+19 silly audit   minimist: [ '1.2.8' ],
+19 silly audit   mkdirp: [ '0.5.6' ],
+19 silly audit   ms: [ '2.0.0', '2.1.3' ],
+19 silly audit   multer: [ '1.4.5-lts.1' ],
+19 silly audit   negotiator: [ '0.6.3' ],
+19 silly audit   'object-assign': [ '4.1.1' ],
+19 silly audit   'object-inspect': [ '1.13.2' ],
+19 silly audit   'on-finished': [ '2.4.1' ],
+19 silly audit   'on-headers': [ '1.0.2' ],
+19 silly audit   parseurl: [ '1.3.3' ],
+19 silly audit   'path-parse': [ '1.0.7' ],
+19 silly audit   'path-to-regexp': [ '0.1.7' ],
+19 silly audit   picomatch: [ '2.3.1' ],
+19 silly audit   'process-nextick-args': [ '2.0.1' ],
+19 silly audit   'proxy-addr': [ '2.0.7' ],
+19 silly audit   qs: [ '6.11.0' ],
+19 silly audit   'random-bytes': [ '1.0.0' ],
+19 silly audit   'range-parser': [ '1.2.1' ],
+19 silly audit   'raw-body': [ '2.5.2' ],
+19 silly audit   'readable-stream': [ '2.3.8' ],
+19 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+19 silly audit   resolve: [ '1.22.8' ],
+19 silly audit   'safer-buffer': [ '2.1.2' ],
+19 silly audit   send: [ '0.18.0' ],
+19 silly audit   'serve-static': [ '1.15.0' ],
+19 silly audit   'set-function-length': [ '1.2.2' ],
+19 silly audit   setprototypeof: [ '1.2.0' ],
+19 silly audit   'side-channel': [ '1.0.6' ],
+19 silly audit   statuses: [ '2.0.1' ],
+19 silly audit   streamsearch: [ '1.1.0' ],
+19 silly audit   string_decoder: [ '1.1.1' ],
+19 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+19 silly audit   toidentifier: [ '1.0.1' ],
+19 silly audit   'type-is': [ '1.6.18' ],
+19 silly audit   typedarray: [ '0.0.6' ],
+19 silly audit   'uid-safe': [ '2.1.5' ],
+19 silly audit   unpipe: [ '1.0.0' ],
+19 silly audit   'util-deprecate': [ '1.0.2' ],
+19 silly audit   'utils-merge': [ '1.0.1' ],
+19 silly audit   vary: [ '1.1.2' ],
+19 silly audit   xtend: [ '4.0.2' ]
+19 silly audit }
+20 http fetch GET 200 https://registry.npmjs.org/npm 369ms
+21 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 357ms
+22 silly audit report {
+22 silly audit report   'body-parser': [
+22 silly audit report     {
+22 silly audit report       id: 1099520,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-qwcr-r2fm-qrc7',
+22 silly audit report       title: 'body-parser vulnerable to denial of service when url encoding is enabled',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<1.20.3',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ],
+22 silly audit report   express: [
+22 silly audit report     {
+22 silly audit report       id: 1099529,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-qw6h-vgh9-j6wx',
+22 silly audit report       title: 'express vulnerable to XSS via response.redirect()',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '<4.20.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ],
+22 silly audit report   'path-to-regexp': [
+22 silly audit report     {
+22 silly audit report       id: 1099562,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-9wv6-86v2-598j',
+22 silly audit report       title: 'path-to-regexp outputs backtracking regular expressions',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<0.1.10',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ],
+22 silly audit report   send: [
+22 silly audit report     {
+22 silly audit report       id: 1099525,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-m6fv-jmcg-4jfg',
+22 silly audit report       title: 'send vulnerable to template injection that can lead to XSS',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '<0.19.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ],
+22 silly audit report   'serve-static': [
+22 silly audit report     {
+22 silly audit report       id: 1099527,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-cm22-4g7w-348p',
+22 silly audit report       title: 'serve-static vulnerable to template injection that can lead to XSS',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '<1.16.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ]
+22 silly audit report }
+23 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+24 silly packumentCache corgi:https://registry.npmjs.org/express cache-miss
+25 silly packumentCache corgi:https://registry.npmjs.org/path-to-regexp cache-miss
+26 silly packumentCache corgi:https://registry.npmjs.org/send cache-miss
+27 silly packumentCache corgi:https://registry.npmjs.org/serve-static cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/body-parser 73ms (cache miss)
+29 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:undefined disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/send 83ms (cache miss)
+31 silly packumentCache corgi:https://registry.npmjs.org/send set size:undefined disposed:false
+32 http fetch GET 200 https://registry.npmjs.org/serve-static 119ms (cache miss)
+33 silly packumentCache corgi:https://registry.npmjs.org/serve-static set size:undefined disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/express 132ms (cache updated)
+35 silly packumentCache corgi:https://registry.npmjs.org/express set size:undefined disposed:false
+36 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 163ms (cache updated)
+37 silly packumentCache corgi:https://registry.npmjs.org/path-to-regexp set size:undefined disposed:false
+38 silly CHANGE node_modules/resolve
+39 silly CHANGE node_modules/mkdirp
+40 silly CHANGE node_modules/mini-svg-data-uri
+41 silly CHANGE node_modules/mime
+42 verbose cwd /home/container
+43 verbose os Linux 5.15.0-113-generic
+44 verbose node v21.7.3
+45 verbose npm  v10.8.3
+46 verbose exit 0
+47 info ok
