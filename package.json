@@ -1,7 +1,7 @@
 {
   "name": "mywebsite",
   "version": "1.0.0",
-  "description": "A website with an admin panel for uploading images.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
